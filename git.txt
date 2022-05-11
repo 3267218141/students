@@ -1,0 +1,51 @@
+git 初始化命令：
+git init
+
+创建用户和邮箱：
+git config --logbal user.name "xw"
+git config --logbal user.email "321.qq.com"
+
+检查列表：
+git config --list
+
+创建文件：
+touch 文件名
+
+写入文本：
+vi 文件名
+
+添加到暂存区：
+git add 文件名
+
+撤销暂存区的文件：
+git reset HEAD
+
+commit 到本地仓库：
+git commit -m "解释"
+
+查看状态：
+git status
+
+查看本地仓库：
+git ls-files
+
+查看日志：
+git log -5 --pretty=online
+
+查看分区
+git branch
+
+创建分区：
+git branch 新的分区名
+
+切换分区
+git checkout 指定分区
+
+切换到没有的分区，会新建一个，并且切到到新建的分区
+git checkout -b 没有的分区
+
+删除指定文件：
+git rm 文件名
+
+恢复手动删除的文件：
+git checkout -- 文件名
